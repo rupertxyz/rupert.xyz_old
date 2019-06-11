@@ -3,11 +3,7 @@ layout: default
 title: Rupert Arnold Hoffschmidt
 ---
 
-<img src="images/r_kopf.jpg" width="125px" alt="Ruperts Gesicht" class="float"/>
-
-  <div>
-    <h1><a href="https://www.rupertarnold.com">Rupert Arnold Hoffschmidt</a></h1>
-  </div>
+  
 
 <p>Welcome to this intentionally plain site. This is my blog & library.</p>
 
@@ -18,4 +14,11 @@ title: Rupert Arnold Hoffschmidt
   <li><a href="http://typelogic.com/enfp.html" target="_blank">ENFP</a>.</li>
   <li>Berlin-based.</li>
   <li>I play piano and hope to be stage ready by the time I'm 45.</li>
+</ul>
+
+<h2>Articles</h2>
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>
