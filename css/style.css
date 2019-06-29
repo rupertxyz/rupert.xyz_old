@@ -4,7 +4,6 @@
 
 html, body {
   padding: 0;
-  margin: 1;
   width: 80%;
   height: 100%;
   margin: auto;
@@ -80,6 +79,17 @@ html, body {
 
 }
 
+.post-date {
+  margin-block-end: 0px;
+  margin-block-start: 6px;
+}
+
+.post-tags {
+  font-size: 14px;
+  margin-block-start: 6px;
+  margin-block-end: 36px;
+}
+
 img.center {
 	display: block;
 	margin-left: auto;
@@ -90,15 +100,20 @@ img.float {
 	float: right;
 }
 
+h1 {
+  margin-block-end: 10px;
+  text-decoration: underline;
+}
+
 h2 {
 	margin-top: 2em;
 }
 
 p{ text-decoration:none; font-weight:normal; color:#000000;}
 
-a{ text-decoration:underline; font-weight:bold; color:#013BCC;}
+a{ text-decoration:none; font-weight:bold; color: #3748FF;}
 
-a:visited { text-decoration:none; font-weight:bold;color:#013BCC;}
+a:hover {text-decoration: underline}
 
 li {
 	line-height: 150%;
