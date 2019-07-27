@@ -81,4 +81,7 @@ footer {
     margin: 0;
     line-height: 20px;
   }
+  h1 {
+    margin-block-end: 10px;
+  }
 }
