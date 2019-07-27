@@ -21,9 +21,10 @@ img.float {
 }
 
 h1 {
-  font-size: 40pt;
+  font-size: 40px;
   margin-block-end: 10px;
   margin-block-start: 30px;
+  line-height: 40px;
 }
 
 h1:hover {
