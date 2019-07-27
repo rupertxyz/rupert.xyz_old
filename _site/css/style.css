@@ -19,6 +19,7 @@ img.center {
 
 img.float {
 	float: right;
+  width: 220px;
 }
 
 h1 {
@@ -64,7 +65,7 @@ a.headline-link:hover {
 }
 
 li {
-	line-height: 150%;
+	line-height: 1.5em;
 }
 
 footer {
@@ -79,9 +80,18 @@ footer {
   body {
     width: 100%;
     margin: 0;
-    line-height: 20px;
+    line-height: 2em;
+    font-size: 30pt;
   }
   h1 {
+    margin-block-end: 40px;
+    font-size: 100pt;
+  }
+  span.subheadline {
+    font-size: 25pt;
     margin-block-end: 10px;
+  }
+  img.float {
+    width: 220px;
   }
 }
