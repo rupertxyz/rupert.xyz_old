@@ -23,7 +23,7 @@ img.float {
 h1 {
   font-size: 40pt;
   margin-block-end: 10px;
-  margin-block-start: 0px;
+  margin-block-start: 30px;
 }
 
 h1:hover {
@@ -73,4 +73,8 @@ footer {
 
 #offline-resources {
   display: none;
+}
+
+.post-tags {
+  font-size: 16px;
 }
