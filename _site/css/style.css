@@ -7,12 +7,8 @@ html, body {
   width: 80%;
   height: 100%;
   margin: auto;
-	font-family: 'Open Sans', sans-serif;
+  font-family: Arial;
 	font-size: 14pt;
-}
-
-.roycap {
-  vertical-align: text-bottom;
 }
 
 img.center {
@@ -27,19 +23,45 @@ img.float {
 
 h1 {
   font-size: 40pt;
+  margin-block-end: 0px;
+}
+
+h1:hover {
+  text-decoration: none;
+}
+
+span.subheadline {
+  font-size: 16pt;
   margin-block-end: 10px;
-  text-decoration: underline;
 }
 
 h2 {
 	margin-top: 2em;
 }
 
-p{ text-decoration:none; font-weight:normal; color:#000000;}
+p {
+  font-family: serif;
+  text-decoration:none;
+  font-weight:normal;
+  color:#000000;
+}
 
-a{ text-decoration:none; font-weight:bold; color: #3748FF;}
+p.sans-serif {
+  font-family: sans-serif;
+}
+
+
+a {
+  text-decoration:none;
+  font-weight:bold;
+  color: #3748FF;
+}
 
 a:hover {text-decoration: underline}
+
+a.headline-link:hover {
+  text-decoration: none;
+}
 
 li {
 	line-height: 150%;
