@@ -79,3 +79,16 @@ footer {
 .post-tags {
   font-size: 16px;
 }
+
+input {
+  width: 200px;
+}
+
+.button {
+  margin: 20px 0 0 0;
+  background-color: #3748FF;
+  color: white;
+  border-radius: 10px;
+  height: 30px;
+  font-size: 16px;
+}
