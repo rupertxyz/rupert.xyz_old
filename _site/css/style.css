@@ -20,6 +20,11 @@ img.float {
   margin-right: 20px;
 }
 
+img.book-cover{
+  float: left;
+  margin: 0 20px 0 0;
+}
+
 h1 {
   font-size: 40px;
   margin-block-end: 10px;
@@ -91,4 +96,8 @@ input {
   border-radius: 10px;
   height: 30px;
   font-size: 16px;
+}
+
+.book-wrapper {
+  margin: 50px 0 0 0;
 }
