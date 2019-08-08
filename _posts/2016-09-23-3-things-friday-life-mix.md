@@ -2,7 +2,7 @@
 layout: page
 title: "3-Things Friday | 'Life-Mix'"
 tags: [3 Things Friday,  Brain Pickings,  Kings of Convenience]
-category: post
+category: blog
 ---
 
 Hi all!

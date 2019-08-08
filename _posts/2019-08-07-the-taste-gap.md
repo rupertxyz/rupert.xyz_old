@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "The Taste Gap"
-category: post
+category: blog
 tags: [Life-Advice, Creativity]
 ---
 Every person who does some sort of creative work knows the taste gap intuitively. It's a concept I've thought about again and again in my career and in private life. It goes like this: What gets you into the game (of whatever it is you're doing) is your taste. You read, watch or listen to something and you're judging: "This is good, this is bad, this is better, this is worse".

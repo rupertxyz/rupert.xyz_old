@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "People on a diet"
-category: post
+category: blog
 tags: [Diet, Religion, Nutrition]
 ---
 
