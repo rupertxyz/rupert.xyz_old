@@ -1,0 +1,22 @@
+---
+layout: default
+title: Books
+---
+
+<h1>Books</h1>
+  {% assign sorted = site.posts | where: "categories", "books" | sort: 'date' | reverse %}
+  <p>Newest books are on top. I'll include sorting according to rating and title soon. You can search for a book with CTRL/⌘ + F.</p>
+    {% for post in sorted %}
+  <div class="book-wrapper">
+    <img class="book-cover" src="{{ post.image }}" width="150px">
+    <h2 class="book-headline"><a href="{{ post.url }}" style="color:black">{{ post.title }}</a></h2>
+    <p>Date read: {{ post.date | date: '%B %d, %Y' }} &nbsp;&nbsp; Rating: {{ post.rating }}/10</p>
+    <p>{{ post.description }}</p>
+  </div>
+  <!-- <div class="book-wrapper">
+    <img class="book-cover" src="{{ books.image }}" width="150px">
+    <h2 class="book-headline"><a href="{{ books.url }}" style="color:black">{{ books.title }}</a></h2>
+    <p>Date read: {{ books.date | date: '%B %d, %Y' }} &nbsp;&nbsp; Rating: {{ books.rating }}/10</p>
+    <p>{{ books.description }}</p>
+  </div> -->
+    {% endfor %}

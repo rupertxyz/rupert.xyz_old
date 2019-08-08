@@ -16,10 +16,19 @@ title: Rupert Arnold Hoffschmidt
 
 <h2><a href="/posts" style="color: black">Articles</a></h2>
 <ul>
-  {% for post in site.posts %}
+  {% assign sorted_posts = site.posts | where: "categories", "post" %}
+  {% for post in sorted_posts %}
     <li>{{ post.date | date: '%B %d, %Y '}} — <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+<!-- <h2><a href="/books" style="color: black">Books</a></h2>
+<ul>
+  {% assign sorted_posts = site.posts | where: "categories", "books" %}
+  {% for post in sorted_posts %}
+    <li>{{ post.date | date: '%B %d, %Y '}} — <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul> -->
 
 <h2>Sign up</h2>
 <p class="sans-serif">Sign up and I'll send you interesting stuff every once in a while.</p>
@@ -44,5 +53,4 @@ title: Rupert Arnold Hoffschmidt
     </div>
 </form>
 </div>
-
 <!--End mc_embed_signup-->
