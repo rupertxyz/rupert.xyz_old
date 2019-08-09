@@ -7,6 +7,6 @@ title: Blog
 <ul>
   {% assign sorted_posts = site.posts | where: "categories", "blog" %}
   {% for post in sorted_posts %}
-    <li><a href="{{ post.url }}" style="color: black">{{ post.title }}</a></li>
+  <li><a href="{{ post.url }}" style="color: black">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
