@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "3-Things Friday | 'Life-Mix'"
-tags: [3 Things Friday,  Brain Pickings,  Kings of Convenience]
+tags: 3-things-friday brain-pickings kings-of-convenience
 category: blog
 ---
 

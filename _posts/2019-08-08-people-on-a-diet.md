@@ -2,7 +2,7 @@
 layout: page
 title: "People on a diet"
 category: blog
-tags: [Diet, Religion, Nutrition]
+tags: diet religion nutrition
 ---
 
 "Which foods to eat" has become one of the most discussed topics of our time. For many people being *religious* about their diet substitutes being religious about a religion. Being on a Keto diet gives one access to a global community of fellow carb-counters as well as a deep hope for things to turn for the better in the future. For every diet, there is a head figure, an authority that has suffered for you so you don't have to.
