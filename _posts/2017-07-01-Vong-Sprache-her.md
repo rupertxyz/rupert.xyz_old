@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Vong Sprache her: Der Amazon, die Rewe, ein Google"
+title: "[GERMAN] Vong Sprache her: Der Amazon, die Rewe, ein Google"
 category: blog
 ---
 
