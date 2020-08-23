@@ -5,6 +5,7 @@ description: "Awesomely creative think-piece. 40 very short fictional stories ab
 category: books
 image: "http://rupert.xyz/images/book-covers/thecircle.jpg"
 rating: 7
+author: Dave Eggers
 ---
 
 TEST

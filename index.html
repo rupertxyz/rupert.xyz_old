@@ -5,11 +5,11 @@ title: Rupert Hoffschmidt
 
 <!-- <p class="sans-serif">Welcome to my blog and library.</p> -->
 
-<h2>Me in a few words</h2>
+<h2>Hi, I'm Rupert.</h2>
 <ul>
-  <li>Kombucha entrepreneur: <a href="http://roykombucha.com" target="_blank">ROY</a>. Community and event organizer: <a href="http://kombuchasummit.com" target="_blank">Kombucha Summit</a>.</li>
+  <li>Founder of <a href="http://roykombucha.com" target="_blank">ROY Kombucha</a>. Community and event organizer: <a href="http://kombuchasummit.com" target="_blank">Kombucha Summit</a>.</li>
   <li><a href="https://www.truity.com/personality-type/ENFP" target="_blank">ENFP</a>, aka an introverted extrovert.</li>
-  <li>I live in Berlin, Germany.</li>
+  <li>Living in Berlin, Germany.</li>
 </ul>
 
 <h2><a href="/posts" style="color: black">Articles</a></h2>
@@ -27,13 +27,17 @@ title: Rupert Hoffschmidt
 {% endfor %}
 </ul>
 
-<!-- <h2><a href="/books" style="color: black">Books</a></h2>
+<!--<h2><a href="/books" style="color: black">Book Notes</a></h2>
+
 <ul>
-  {% assign sorted_posts = site.posts | where: "categories", "books" %}
-  {% for post in sorted_posts %}
-    <li>{{ post.date | date: '%B %d, %Y '}} — <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul> -->
+{% assign sorted_posts = site.posts | where: "categories", "books" %}
+{% for post in sorted_posts %}
+  <li><a href="{{ post.url }}">{{ post.author }} — {{ post.title }}</a></li>
+{% endfor %}
+</ul>-->
+
+<!--<h2 class="front"><a href="/ideas" style="color: black">Ideas -></a></h2>
+<p>Ideas for projects and businesses.</p>-->
 
 <h2>Sign up</h2>
 <p class="sans-serif">Sign up and you'll get notified about new articles.</p>
@@ -44,10 +48,6 @@ title: Rupert Hoffschmidt
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address:</label>
 	<br><input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-</div>
-<div class="mc-field-group">
-	<label for="mce-NAME">Name:</label>
-	<br><input type="text" value="" name="NAME" class="" id="mce-NAME">
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>

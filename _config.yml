@@ -4,3 +4,5 @@ url:          http://rupert.xyz
 
 plugins:
   - jekyll-seo-tag
+
+permalink: /:title/
