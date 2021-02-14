@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.snowContainer  {
+    width: 100%; 
+    height: 100vh; 
+    background: url('background.jpg') center; 
+    background-size: cover;
+    overflow: hidden; 
+    position: relative;
+    text-align: center;
+    padding-top: 5rem;
+    color: white;
+}
+
+.snowExample   {
+    position: absolute; top: -450px; opacity: 0.6; text-align: center;
+    animation: SnowExampleSlide ease-in infinite;
+    -webkit-animation: SnowExampleSlide ease-in infinite;
+    -moz-animation: SnowExampleSlide ease-in infinite;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes SnowExampleSlide {
+    from {
+        position: absolute; 
+        top: -450px;
+    } to 
+    {   
+        position: absolute; 
+        top: 90%;
+    }
+}
+
+@-webkit-keyframes SnowExampleSlide {
+    from {
+        position: absolute; 
+        top: -450px;
+    } to {
+        position: absolute; 
+        top: 90%;
+    }
+}
+
+@-moz-keyframes SnowExampleSlide {
+    from {
+        position: absolute; 
+        top: -450px;
+    } to {
+        position: absolute; 
+        top: 90%;
+    }
+}
